@@ -13,9 +13,9 @@ Create three files in a project and add all of them to Git in a single operation
 
 ### Commands used
 ```bash
-echo "Hello from file 1" > f1.txt
-echo "Hello from file 2" > f2.txt
-echo "Hello from file 3" > f3.txt
+echo "Hello from file 1" >| f1.txt
+echo "Hello from file 2" >| f2.txt
+echo "Hello from file 3" >| f3.txt
 
 git add f1.txt f2.txt f3.txt
 git commit -m "Add three files to track multiple files"
